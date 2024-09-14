@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+}
+
+nav {
+    padding: 15px;
+    background-color: orange;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    gap: 20px;
+    padding: 15px;
+    background-color: green;
+}
+
+article {
+    padding: 15px;
+    background-color: blue;
+}
+
+footer {
+    font-size: 32px;
+    padding: 15px;
+    background-color: purple;
+    text-align: center;
+}
