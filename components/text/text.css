@@ -1,0 +1,16 @@
+.text {
+    font-family: var(--font-family-inter);
+    color: var(--primary-typography-color);
+    margin: 0;
+}
+
+.text_m {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.text_align_center {
+    text-align: center;
+}

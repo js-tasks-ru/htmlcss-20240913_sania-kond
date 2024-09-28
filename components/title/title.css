@@ -1,0 +1,21 @@
+.title {
+    font-family: var(--font-family-inter);
+    color: var(--primary-typography-color);
+    margin: 0;
+}
+
+.title_xl {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+}
+
+.title_l {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.title_align_center {
+    text-align: center;
+}

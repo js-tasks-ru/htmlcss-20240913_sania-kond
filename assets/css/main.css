@@ -1,4 +1,13 @@
+@import './normalize.css';
 @import '../fonts/fonts.css';
+
+@import '../../components/title/title.css';
+@import '../../components/text/text.css';
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
@@ -11,14 +20,29 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --light-blue: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    /* Fonts */
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-inter: 'Inter', sans-serif;
+
+    /* Border */
+    --primary-border-color: var(--grey-2);
+
+    /* Typography */
+    --primary-typography-color: var(--black);
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family-roboto);
+}
+
+html, body {
+    height: 100%;
 }
