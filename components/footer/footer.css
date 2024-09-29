@@ -1,0 +1,8 @@
+.footer {
+    border-top: 1px solid var(--primary-border-color);
+    padding: 72px 0 136px;
+}
+
+.footer__text {
+    margin-top: 32px;
+}
