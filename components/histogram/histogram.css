@@ -1,0 +1,28 @@
+.histogram {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 16px 24px 24px 24px;
+}
+
+.histogram__text-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.histogram__total {
+    margin-top: 6px;
+}
+
+.histogram__columns {
+    display: grid;
+    height: 50px;
+    margin-top: 39px;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    align-items: end;
+    gap: 1px;
+}
+
+.histogram__column {
+    background-color: var(--primary);
+}
