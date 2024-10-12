@@ -9,6 +9,7 @@
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/skeleton/skeleton.css';
+@import '../../components/tooltip/tooltip.css';
 
 :root {
     --white: #ffffff;
