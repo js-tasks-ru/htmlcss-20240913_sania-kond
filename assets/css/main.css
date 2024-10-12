@@ -38,23 +38,10 @@
 
     /* Border */
     --primary-border-color: var(--grey-2);
+    --secondary-border-color: var(--grey-3);
 
     /* Typography */
     --primary-typography-color: var(--black);
-
-    /* Buttons */
-    --button-primary-text-color: var(--white);
-
-    --primary-button-background-color: var(--blue);
-    --primary-button-background-color-on-hover: var(--dark-blue);
-
-    --secondary-button-background-color: var(--purple);
-    --secondary-button-background-color-on-hover: var(--dark-purple);
-
-    --alternate-button-text-color: var(--grey-4);
-    --alternate-button-border-color: var(--grey-3);
-    --alternate-button-border-color-on-hover: var(--black);
-    --alternate-button-background-color: var(--white);
 }
 
 body {
