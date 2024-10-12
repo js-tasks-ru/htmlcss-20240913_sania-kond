@@ -1,7 +1,6 @@
 .card {
     display: flex;
     flex-direction: column;
-    aspect-ratio: 1;
     padding: 24px;
     box-shadow: 0 2px 4px 0 #2124290D;
     border-radius: 12px;
@@ -10,6 +9,7 @@
 
 .card__content {
     width: 100%;
+    min-height: 262px;
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
@@ -18,6 +18,6 @@
 }
 
 .card__title {
-    margin-bottom: 6px;
+    margin: 25px 0 6px;
     text-align: center;
 }

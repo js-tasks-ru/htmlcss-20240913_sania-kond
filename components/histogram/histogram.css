@@ -26,3 +26,7 @@
 .histogram__column {
     background-color: var(--primary);
 }
+
+.histogram__view-all-link {
+    margin-top: 3px;
+}
