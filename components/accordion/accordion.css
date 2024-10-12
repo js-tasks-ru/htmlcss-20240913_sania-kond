@@ -1,4 +1,10 @@
 .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.accordion__item {
     border: 1px solid var(--grey-3);
     padding: 24px 32px;
     border-radius: 8px;
@@ -22,10 +28,11 @@
     content: '';
 }
 
-.accordion[open] .accordion__content {
+.accordion__item[open] .accordion__content {
     margin-top: 16px;
+    margin-bottom: 8px;
 }
 
-.accordion[open] .accordion__caret {
+.accordion__item[open] .accordion__caret {
     transform: rotateX(180deg);
 }
