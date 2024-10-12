@@ -9,6 +9,7 @@
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/skeleton/skeleton.css';
+@import '../../components/calendar/calendar.css';
 
 :root {
     --white: #ffffff;
@@ -35,6 +36,7 @@
 
     /* Border */
     --primary-border-color: var(--grey-2);
+    --secondary-border-color: var(--grey-3);
 
     /* Typography */
     --primary-typography-color: var(--black);

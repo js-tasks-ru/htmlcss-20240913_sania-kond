@@ -16,6 +16,18 @@
     line-height: 48px;
 }
 
+.title_m {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.title_s {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .title_align_center {
     text-align: center;
 }
