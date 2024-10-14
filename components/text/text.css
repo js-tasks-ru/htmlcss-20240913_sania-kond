@@ -14,3 +14,11 @@
 .text_align_center {
     text-align: center;
 }
+
+.text_color_primary {
+    color: var(--primary);
+}
+
+.text_decoration_none {
+    text-decoration: none;
+}
