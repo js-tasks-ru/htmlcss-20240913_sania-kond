@@ -18,3 +18,11 @@
 .text_color_gray4 {
     color: var(--grey-4);
 }
+
+.text_color_primary {
+    color: var(--primary);
+}
+
+.text_decoration_none {
+    text-decoration: none;
+}

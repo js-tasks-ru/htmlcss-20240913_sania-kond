@@ -5,11 +5,15 @@
 @import '../../components/text/text.css';
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
+@import '../../components/card-list/card-list.css';
+@import '../../components/card/card.css';
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/accordion/accordion.css';
+@import '../../components/histogram/histogram.css';
 @import '../../components/skeleton/skeleton.css';
+@import '../../components/button/button.css';
 
 :root {
     --white: #ffffff;
@@ -23,6 +27,8 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --light-blue: #F9FAFC;
+    --dark-blue: #2342C0;
+    --dark-purple: #5028C6;
 
     --error: var(--red);
     --success: var(--blue);
@@ -36,6 +42,7 @@
 
     /* Border */
     --primary-border-color: var(--grey-2);
+    --secondary-border-color: var(--grey-3);
 
     /* Typography */
     --primary-typography-color: var(--black);
