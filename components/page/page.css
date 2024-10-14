@@ -3,3 +3,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+.page__main {
+    padding: 68px 0 204px;
+}
