@@ -12,6 +12,7 @@
 @import '../../components/footer/footer.css';
 @import '../../components/histogram/histogram.css';
 @import '../../components/skeleton/skeleton.css';
+@import '../../components/avatar/avatar.css';
 @import '../../components/button/button.css';
 
 :root {
