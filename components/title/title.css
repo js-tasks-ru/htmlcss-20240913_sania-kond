@@ -31,3 +31,7 @@
 .title_align_center {
     text-align: center;
 }
+
+.title_font-weight_medium {
+    font-weight: 500;
+}
