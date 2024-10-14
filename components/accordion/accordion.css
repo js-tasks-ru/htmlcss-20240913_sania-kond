@@ -1,0 +1,38 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.accordion__item {
+    border: 1px solid var(--grey-3);
+    padding: 24px 32px;
+    border-radius: 8px;
+}
+
+.accordion__trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.accordion__caret {
+    color: var(--grey-4);
+}
+
+.accordion__trigger::-webkit-details-marker,
+.accordion__trigger::marker {
+    display: none;
+    content: '';
+}
+
+.accordion__item[open] .accordion__content {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.accordion__item[open] .accordion__caret {
+    transform: rotateX(180deg);
+}
