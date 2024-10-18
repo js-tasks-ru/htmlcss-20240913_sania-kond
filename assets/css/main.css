@@ -13,6 +13,7 @@
 @import '../../components/accordion/accordion.css';
 @import '../../components/histogram/histogram.css';
 @import '../../components/skeleton/skeleton.css';
+@import '../../components/calendar/calendar.css';
 @import '../../components/button/button.css';
 
 :root {
